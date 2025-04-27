@@ -54,6 +54,7 @@ using a divide and conquer strategy. Each division is offloaded to a new thread 
 a base case is reached. When an array can’t be divided anymore, the sorting of
 small fractions of the array starts and the merge step happens of different threads
 until finally the result is a fully sorted array.
+  - *Executor service is excluded from testing.*
 <img src="https://github.com/edweo/virtual-thread-benchmark/blob/main/data_statistics_report/Mac-OS-X_Processor-3.0GHz_CPUs-8/merge_sort/FULL_DATA_merge_sort.png" alt="Image" width="1000" />
 
 - **Sieve of Eratosthenes (Finding Prime Numbers)**
